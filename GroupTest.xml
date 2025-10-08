@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="groupTest-suite">
+    <test name="groupTest">
+        <groups>
+            <run>
+<!--                <include name="S" />-->
+                <exclude name="S"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="GroupTest.GroupTest1">
+
+            </class>
+        </classes>
+    </test>
+
+</suite>

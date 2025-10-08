@@ -12,7 +12,7 @@ public class TestDependMethod {
     @Test()
     public void oLevel(){
         System.out.println("test o/Level");
-        Assert.fail();
+        //Assert.fail();
     }
     @Test(dependsOnMethods = "oLevel")
     public void aLevel(){

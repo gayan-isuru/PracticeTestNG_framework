@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="test suites parallel" parallel="methods" thread-count="2">
+    <test name="test casesParallel ">
+        <classes>
+            <class name="parallel.OPenBrowsersParallely" />
+        </classes>
+    </test>
+</suite>
